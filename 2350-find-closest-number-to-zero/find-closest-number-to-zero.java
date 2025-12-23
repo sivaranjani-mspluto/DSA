@@ -1,6 +1,5 @@
 
 public class Solution {
-    //dsa-array-1
     public int findClosestNumber(int[] nums) {
         int closest = nums[0];
         
