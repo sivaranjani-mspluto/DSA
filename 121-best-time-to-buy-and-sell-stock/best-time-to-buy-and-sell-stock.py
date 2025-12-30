@@ -6,5 +6,6 @@ class Solution:
             if cp<bp:
                 bp=cp
             else:
-                p=max(p,cp-bp)
+                if (cp-bp) > p:
+                    p=cp-bp 
         return p
