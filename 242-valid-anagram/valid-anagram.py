@@ -13,6 +13,7 @@ class Solution:
                 hmap[j]-=1
             else:
                 return False
+
         for e in hmap:
             if hmap[e]!=0:
                 return False
